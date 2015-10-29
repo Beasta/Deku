@@ -37,9 +37,4 @@ module.exports = function (app) {
 
   //Route for posting a message to a particular thread
   app.post('/:userID/:threadID', threadController.addMessageToThread);
-
-
-
- 
-
 }

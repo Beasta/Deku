@@ -16,7 +16,8 @@ var app = express();
 
 //Configure our port for deployment/local development
 var port = process.env.PORT || 3000;
-
+console.log('process.env.PORT is:',process.env.PORT);
+console.log('port is:', port);
 //Set up MySQL database here
   //Conditional check for connecting to instance of deployed or local DB
 

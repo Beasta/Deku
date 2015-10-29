@@ -18,6 +18,7 @@ if (dbURL) {
     host: 'localhost', 
     user: 'root',
     database: 'deku'
+    password: 'dekupu',
   });
 }
 
