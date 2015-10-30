@@ -17,8 +17,8 @@ if (dbURL) {
   var connection = mysql.createConnection({
     host: 'localhost', 
     user: 'root',
-    database: 'deku'
-    password: 'dekupu',
+    database: 'deku',
+    password: 'dekupu'
   });
 }
 
